@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="./Document_files/style.css"></head>
+<body id="body" cz-shortcut-listen="true"><div id="tutto">
+
+    
+
+
+<nav>
+    <!-- titolo del sito -->  
+    <div id="titolo"><h1> SmartphoneLand  </h1></div>
+    <div id="darkModeContainer">
+        <button id="darkModeButton" onclick="cambiaDark()">Dark mode</button>
+        <button id="lightModeButton" onclick="cambiaLight()">Light Mode</button>
+    </div>
+
+
+</nav>
+
+<main>
+    <div id="prodottiContainer">
+
+        <div id="titoloProdotti">I 5 Smartphone più in vista questa settimana:</div>
+
+        <!-- PRODOTTO 1 -->
+        <div class="prodotto">
+            <div class="nomeProdotto">
+                iPhone 15 pro
+            </div>
+
+            <div class="contenitoreImmagine">
+          <img class="imgSmartphone" src="./Document_files/iphone 15 pro 256gb blu.jpg" alt="iphone15pro"> 
+            </div>
+
+            <div class="descrizioneProdotto">
+                iPhone 15 pro 256gb 
+            </div>
+
+
+            <button class="tastoAcquista">
+                <a href="http://127.0.0.1:5500/">acquista - 999€</a> 
+
+            <div class="commento">
+                <input type="text" placeholder="lascia un commento...">
+            </div>
+
+        </button></div>
+
+        <!-- PRODOTTO 2 -->
+        <div class="prodotto">
+            <div class="nomeProdotto">
+                iPhone 15 pro
+            </div>
+
+            <div class="contenitoreImmagine">
+          <img class="imgSmartphone" src="./Document_files/iphone 15 pro 256gb blu.jpg" alt="iphone15pro"> 
+            </div>
+
+            <div class="descrizioneProdotto">
+                iPhone 15 pro 256gb 
+            </div>
+
+
+            <button class="tastoAcquista">
+                <a href="http://127.0.0.1:5500/">acquista - 999€</a> 
+
+            <div class="commento">
+                <input type="text" placeholder="lascia un commento...">
+            </div>
+
+        </button></div>
+
+
+                <!-- PRODOTTO 3 -->
+        <div class="prodotto">
+            <div class="nomeProdotto">
+                iPhone 15 pro
+            </div>
+
+            <div class="contenitoreImmagine">
+          <img class="imgSmartphone" src="./Document_files/iphone 15 pro 256gb blu.jpg" alt="iphone15pro"> 
+            </div>
+
+            <div class="descrizioneProdotto">
+                iPhone 15 pro 256gb 
+            </div>
+
+
+            <button class="tastoAcquista">
+                <a href="http://127.0.0.1:5500/">acquista - 999€</a> 
+
+            <div class="commento">
+                <input type="text" placeholder="lascia un commento...">
+            </div>
+
+        </button></div>
+
+        <!-- PRODOTTO 4 -->
+        <div class="prodotto">
+            <div class="nomeProdotto">
+                iPhone 15 pro
+            </div>
+
+            <div class="contenitoreImmagine">
+          <img class="imgSmartphone" src="./Document_files/iphone 15 pro 256gb blu.jpg" alt="iphone15pro"> 
+            </div>
+
+            <div class="descrizioneProdotto">
+                iPhone 15 pro 256gb 
+            </div>
+
+
+            <button class="tastoAcquista">
+                <a href="http://127.0.0.1:5500/">acquista - 999€</a> 
+
+            <div class="commento">
+                <input type="text" placeholder="lascia un commento...">
+            </div>
+
+        </button></div>
+
+
+        <!-- PRODOTTO 5 -->
+        <div class="prodotto">
+            <div class="nomeProdotto">
+                iPhone 15 pro
+            </div>
+
+            <div class="contenitoreImmagine">
+          <img class="imgSmartphone" src="./Document_files/iphone 15 pro 256gb blu.jpg" alt="iphone15pro"> 
+            </div>
+
+            <div class="descrizioneProdotto">
+                iPhone 15 pro 256gb 
+            </div>
+
+
+            <button class="tastoAcquista">
+                <a href="http://127.0.0.1:5500/">acquista - 999€</a> 
+
+            <div class="commento">
+                <input type="text" placeholder="lascia un commento...">
+            </div>
+
+        </button></div>
+        
+    </div> 
+
+
+</main>
+
+<footer>
+
+    <div> smartphoneLand - Via del Papero 5, Trapani</div>
+
+</footer>
+
+
+    <script src="./Document_files/script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</div>
+</body></html>
